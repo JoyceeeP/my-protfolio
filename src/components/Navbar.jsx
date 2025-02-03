@@ -1,9 +1,17 @@
 import React from 'react'
 import profile from '../assets/profile.jpg'
+import { HiOutlineMenu,  } from "react-icons/hi";
 
 const Navbar = () => {
+
+  // Function to toggle menu
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+      };
+
   return (
-    <nav className="bg-black text-white px-6 md:px-16 lg:px-24">
+    <>
+    <nav className="bg-black text-white px-6 md:px-16 lg:px-24 hidden md:flex">
       <div className="container py-3 flex flex-wrap items-center justify-between gap-x-6">
         
         {/* Name */}
@@ -23,6 +31,12 @@ const Navbar = () => {
 
       </div>
     </nav>
+    <div className='w-full p-3.5 bg-black sticky text-white text-[2.5rem] text-end md:hidden flex'
+      onClick={toggleMenu}> 
+      <HiOutlineMenu />
+    </div>
+    </>
+    
     
   )
 }

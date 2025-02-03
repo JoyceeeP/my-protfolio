@@ -3,7 +3,7 @@ import profile from '../assets/profile.jpg'
 
  const Home = () => {
   return (
-    <div className='bg-black text-white text-center py-16'>
+    <div className='bg-black text-white text-center py-16' id="home">
       <img src={profile} alt="" 
         className='mx-auto mb-8 w-45 h-45 rounded-full object-cover transform 
         transition-transform duration-200 hover:scale-110'/>
@@ -14,7 +14,7 @@ import profile from '../assets/profile.jpg'
             , Front-end Developer
         </h1>
         <p className='mt-4 text-lg text-gray-300'>
-          I focus on creating responsive and modern websites.
+          Focuses on creating responsive and modern websites.
         </p>
         <div className='mt-8 space-x-4'>
             <button
