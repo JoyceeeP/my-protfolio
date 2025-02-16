@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutMe from '../assets/AboutMe.jpg'
+import AboutMe from '../assets/profile.jpg'
 
 const About = () => {
   return (
