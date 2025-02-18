@@ -3,22 +3,27 @@ const service = [
     {
       id: 1,
       title: "Web Designing",
-      description: "Creating visually appealing and user-friendly web designs.",
+      description: "Crafting beautiful, user-friendly websites that engage your audience.",
     },
     {
       id: 2,
       title: "Frontend Development",
-      description: "Building responsive and interactive user interfaces.",
+      description: "Building dynamic and responsive interfaces for seamless user experiences.",
     },
     {
       id: 3,
-      title: "Content Writing",
-      description: "Writing content for your business and companies.",
+      title: "Backend Development",
+      description: "Powering your applications with robust server-side logic and efficient database management.",
     },
     {
       id: 4,
+      title: "Full-Stack Development",
+      description: "Seamlessly integrating frontend and backend expertise for comprehensive web solutions.",
+    },
+    {
+      id: 5,
       title: "Digital Marketing",
-      description: "Promote your business with our digital marketing team.",
+      description: "Elevate your brand visibility and reach your target audience with my strategic digital marketing solutions.",
     },
   ];
 

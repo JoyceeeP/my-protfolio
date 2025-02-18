@@ -14,10 +14,10 @@ const About = () => {
                 {/* Self Intro */}
             <div className="flex-1">
                 <p className="text-lg mb-8 text-center">
-                Front-end Developer passionate about creating responsive, user-friendly websites. 
+                Fullstack Developer passionate about creating responsive, user-friendly websites. 
                 I love turning ideas into interactive experiences and continuously expanding my skills in web development.
                 I am also open to exploring learning new technologies, and collaborating with teams to build efficient 
-                and visually appealing web applications. 
+                and visually appealing web systems and applications. 
                 </p>
 
                 {/* Skills */}
@@ -32,6 +32,12 @@ const About = () => {
                             <label htmlFor="reactjs" className='w-2/10'> React JS</label>
                             <div className="relative grow bg-gray-800 rounded-full h-2.5 overflow-hidden">
                             <div className="absolute left-0 bg-gradient-to-r from-[#DA498D] to-[#69247C] h-2.5 rounded-full w-9/12"></div>
+                            </div>
+                        </div>
+                        <div className="flex items-center">
+                            <label htmlFor="reactjs" className='w-2/10'> SQL</label>
+                            <div className="relative grow bg-gray-800 rounded-full h-2.5 overflow-hidden">
+                            <div className="absolute left-0 bg-gradient-to-r from-[#DA498D] to-[#69247C] h-2.5 rounded-full w-7/12"></div>
                             </div>
                         </div>
                         <div className="flex items-center">

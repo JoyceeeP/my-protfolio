@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../assets/PENEIRA-2X2.jpg'
+import profile from '../assets/AboutMe.jpg'
 
  const Home = () => {
   return (
@@ -8,10 +8,10 @@ import profile from '../assets/PENEIRA-2X2.jpg'
         className='mx-auto mb-8 w-45 h-45 rounded-full object-cover transform 
         transition-transform duration-200 hover:scale-110'/>
       <h1 className='text-3xl font-bold'>
-            Hi! I'm {" "}
+            Hi! I am {" "}
             <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#69247C] 
             to-[#DA498D]'>Joycelyn Peneira</span>
-            , Front-end Developer
+            , Full-Stack Developer
         </h1>
         <p className='mt-4 text-lg text-gray-300'>
           Focuses on creating responsive and modern websites.
